@@ -13,7 +13,7 @@ setup(
     author="TechShreyash",
     author_email="techshreyash123@gmail.com",
     long_description_content_type="text/markdown",
-    url="https://github.com/TechShreyash/TechZApi",
+    url="https://github.com/kjeymax/TechZApi",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=["techzapi"],
