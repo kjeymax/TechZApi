@@ -6,10 +6,8 @@ class TechZApi:
 
     Python wrapper for the TechZApi
 
-    - Base Url : api.techzbots.live
-    - Documentation : [Click Here](https://api.techzbots.live/docs)
-    - Updates Channel : [TechZBots](https://telegram.me/TechZBots)
-    - Support Group : [TechZBots Support](https://telegram.me/TechZBots_Support)
+    - Base Url : api3.kajmax.workers.dev
+    - Documentation : [Click Here](https://api3.kajmax.workers.dev/docs)
     """
 
     class Gogo:
@@ -18,7 +16,7 @@ class TechZApi:
         """
 
         def __init__(self, API_KEY) -> None:
-            self.base = "https://api.techzbots.live"
+            self.base = "https://api3.kajmax.workers.dev"
             self.api_key = API_KEY
 
         def latest(self, page=1):
@@ -79,7 +77,7 @@ class TechZApi:
 
     class MkvCinemas:
         def __init__(self, API_KEY) -> None:
-            self.base = "https://api.techzbots.live"
+            self.base = "https://api3.kajmax.workers.dev"
             self.api_key = API_KEY
 
         def add_task(self, url, max=5):
